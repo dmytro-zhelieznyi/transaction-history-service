@@ -4,7 +4,7 @@ import lombok.*;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
+import java.sql.Timestamp;
 
 @Entity
 @AllArgsConstructor
@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @Builder
+@EqualsAndHashCode
 public class TransactionHistory {
 
     @Id
@@ -31,6 +32,6 @@ public class TransactionHistory {
     private Boolean isSuccess;
 
     @Column(name = "date")
-    private LocalDateTime date;
+    private Timestamp date;
 
 }
