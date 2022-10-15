@@ -4,9 +4,9 @@ services:
   db:
     image: postgres
     restart: always
-    container_name: transaction-history-service-db
+    container_name: transaction-analitic-service-db
     ports:
-      - '5432:5432'
+      - '2002:5432'
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
