@@ -1,7 +1,7 @@
-package com.example.transactionanaliticservice.sevice;
+package com.example.transactionanalyticservice.sevice;
 
-import com.example.transactionanaliticservice.data.entity.Transaction;
-import com.example.transactionanaliticservice.repository.TransactionRepository;
+import com.example.transactionanalyticservice.data.entity.Transaction;
+import com.example.transactionanalyticservice.repository.TransactionRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;

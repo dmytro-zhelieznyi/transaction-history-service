@@ -1,4 +1,4 @@
-package com.example.transactionanaliticservice.data.entity;
+package com.example.transactionanalyticservice.data.entity;
 
 import lombok.*;
 

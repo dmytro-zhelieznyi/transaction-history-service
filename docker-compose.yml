@@ -4,7 +4,7 @@ services:
   db:
     image: postgres
     restart: always
-    container_name: transaction-analitic-service-db
+    container_name: transaction-analytic-service-db
     ports:
       - '2002:5432'
     environment:

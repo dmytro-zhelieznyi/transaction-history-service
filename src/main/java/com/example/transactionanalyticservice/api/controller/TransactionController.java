@@ -1,7 +1,7 @@
-package com.example.transactionanaliticservice.api.controller;
+package com.example.transactionanalyticservice.api.controller;
 
-import com.example.transactionanaliticservice.data.entity.Transaction;
-import com.example.transactionanaliticservice.sevice.TransactionService;
+import com.example.transactionanalyticservice.data.entity.Transaction;
+import com.example.transactionanalyticservice.sevice.TransactionService;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import org.springframework.web.bind.annotation.PostMapping;
