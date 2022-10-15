@@ -13,7 +13,7 @@ import java.sql.Timestamp;
 @Setter
 @Builder
 @EqualsAndHashCode
-public class TransactionHistory {
+public class Transaction {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

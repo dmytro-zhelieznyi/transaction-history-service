@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TransactionHistoryServiceApplication {
+public class TransactionAnaliticServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TransactionHistoryServiceApplication.class, args);
+        SpringApplication.run(TransactionAnaliticServiceApplication.class, args);
     }
 
 }
